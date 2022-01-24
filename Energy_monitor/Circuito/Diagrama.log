@@ -1,0 +1,12 @@
+# Writing all output to: D:\Gabriel Alves\Documents\Backup\Gabriel\FURG\Projetos\Circuitos\Energy_monitor\Diagrama.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 5
+route 50 16
+clean 5
+filter 5
+recorner diagonal
+status_file
+
